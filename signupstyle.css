@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+  }
+  
+  .form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px; /* Ajuste para a direita */
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo adicional para o link "Já tem uma conta? Faça login" */
+  .form p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .form p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form p a:hover {
+    text-decoration: underline;
+  }
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #aaa;
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificação de Nome e Senha</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Entrar na conta</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+            <br/>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha">
+            <br/>
+            <button onclick="verificarCredenciais()">Entrar</button>
+            <p><a href="signup.html">Ainda não tem uma conta? Cadastre-se</a></p>
+            <button onclick="voltarParaIndex()">Voltar</button>
+        </div>
+    </div>
+</body>
+</html>
