@@ -1,0 +1,18 @@
+/* perfilstyle.css */
+
+/* Estilizar o botão Voltar */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor do botão */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Mudar a cor do botão quando hover */
+button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse por cima */
+}

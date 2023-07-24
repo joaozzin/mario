@@ -35,8 +35,8 @@ function verificarCredenciais() {
     const usuarioEncontrado = usuarios.find((usuario) => usuario.nome === nome && usuario.senha === senha);
 
     if (usuarioEncontrado) {
-        console.log(usuarioEncontrado.tipo)
-            window.location.href = "paginicial.html";
+        localStorage.setItem("nomeJogador", nome);
+        window.location.href = "paginicial.html";
     } else {
         alert("Credenciais inválidas. Por favor, tente novamente.");
     }
