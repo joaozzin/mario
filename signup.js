@@ -1,8 +1,12 @@
 // signup.js
 
-// Configurações do Firebase
-const firebaseConfig = {
-  // Configurações do Firebase
+firebaseConfig = {
+  apiKey: "AIzaSyDNcj5r6Rla559W-DplH2oFjIofgks2EFo",
+  authDomain: "mario-card-game.firebaseapp.com",
+  projectId: "mario-card-game",
+  storageBucket: "mario-card-game.appspot.com",
+  messagingSenderId: "279911068217",
+  appId: "1:279911068217:web:9025d436144f32c9a113e8"
 };
 
 // Inicializar o Firebase com as configurações
