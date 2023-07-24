@@ -86,3 +86,23 @@ body {
   button:hover {
     background-color: #aaa;
   }
+
+  /* Estilos para o elemento select */
+select {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+  outline: none; /* Remove a borda ao focar no campo */
+  transition: border-color 0.2s ease-in-out;
+}
+
+/* Estilo para as opções do elemento select */
+select option {
+  padding: 5px;
+}
