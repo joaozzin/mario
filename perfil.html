@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfil do Jogador</title>
+    <link rel="stylesheet" href="perfilstyle.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="perfil.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Perfil do Jogador</h1>
+        <div id="dados-jogador">
+            <p><strong>Nome:</strong> <span id="nome-jogador">Carregando...</span></p>
+            <p><strong>Time:</strong> <span id="time-jogador">Carregando...</span></p>
+        </div>
+        <button onclick="sairDaConta()">Sair da Conta</button>
+    </div>
+</body>
+</html>

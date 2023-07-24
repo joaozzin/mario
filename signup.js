@@ -1,6 +1,6 @@
 // signup.js
 
-firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyDNcj5r6Rla559W-DplH2oFjIofgks2EFo",
   authDomain: "mario-card-game.firebaseapp.com",
   projectId: "mario-card-game",
